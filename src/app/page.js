@@ -1,7 +1,11 @@
+import Navbar from "../components/templates/Navbar";
+
 export default function Home() {
   return (
     <>
-    <h1>شایان</h1>
+      <Navbar />
+      <div className="container">
+      </div>
     </>
   );
 }

@@ -11,3 +11,10 @@ body {
 a {
   text-decoration: none;
 }
+
+.container{
+  width: 65vw;
+  height: 60px;
+  display: flex;
+  justify-self: center;
+}
