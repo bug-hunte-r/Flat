@@ -1,3 +1,4 @@
+import Header from "@/components/templates/Header";
 import Navbar from "../components/templates/Navbar";
 
 export default function Home() {
@@ -5,6 +6,7 @@ export default function Home() {
     <>
       <Navbar />
       <div className="container">
+        <Header />
       </div>
     </>
   );
