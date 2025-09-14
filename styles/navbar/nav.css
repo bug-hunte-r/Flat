@@ -1,0 +1,47 @@
+.container-navbar {
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 120px;
+}
+
+.logo {
+    width: 54px;
+    height: 30px;
+}
+
+.nav-links {
+    font-size: 15px;
+    color: #595959;
+    font-weight: 300;
+    font-family: yekan;
+}
+
+.right-sec-navbar {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.left-sec-navbar {
+    width: 11%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-btn {
+    color: #595959;
+    font-size: 15px;
+}
+
+.signup-btn {
+    font-size: 15px;
+    background-color: #EF273DF6;
+    color: white;
+    padding: 3px 15px;
+    border-radius: 8px;
+}
