@@ -1,0 +1,208 @@
+@media only screen and (min-width: 1426px) {
+    .container-texts-header{
+        width: 41%;
+    }
+
+    .imgs-header {
+        width: calc(20vw + 10px);
+        height: 350px;
+    }
+
+    .title-header {
+        font-size: calc(2vw + 16px);
+    }
+    
+    .sub-title-header {
+        font-size: calc(2vw + 3px);
+    }
+
+    .input-header {
+        width: 350px;
+        font-size: 18px;
+    }
+    
+    .btn-header {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 1850px){
+    .input-header {
+        width: 400px;
+        font-size: 20px;
+    }
+    
+    .btn-header {
+        font-size: 20px;
+        width: 90px;
+    }
+}
+
+@media only screen and (min-width: 2200px){
+    .input-header {
+        width: 500px;
+        font-size: 24px;
+    }
+    
+    .btn-header {
+        font-size: 24px;
+        width: 120px;
+    }
+}
+
+@media only screen and (max-width: 924px) {
+    .imgs-header {
+        width: 250px;
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 896px) {
+    .input-header {
+        width: 270px;
+    }
+}
+
+@media only screen and (max-width: 892px) {
+    .title-header {
+        font-size: calc(1vw + 18px);
+    }
+}
+
+@media only screen and (max-width: 866px) {
+    .input-header {
+        width: 260px;
+    }
+}
+
+@media only screen and (max-width: 862px) {
+    .title-header {
+        font-size: calc(1vw + 16px);
+    }
+}
+
+@media only screen and (max-width: 856px) {
+    .input-header {
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 846px) {
+    .input-header {
+        width: 240px;
+    }
+}
+
+@media only screen and (max-width: 836px) {
+    .input-header {
+        width: 230px;
+    }
+}
+
+@media only screen and (max-width: 832px) {
+    .title-header {
+        font-size: calc(1vw + 14px);
+    }
+}
+
+@media only screen and (max-width: 826px) {
+    .input-header {
+        width: 220px;
+    }
+}
+
+@media only screen and (max-width: 816px) {
+    .input-header {
+        width: 210px;
+    }
+}
+
+@media only screen and (max-width: 806px) {
+    .input-header {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 803px) {
+    .title-header {
+        font-size: calc(1vw + 12px);
+    }
+}
+
+@media only screen and (max-width: 796px) {
+    .btn-header {
+        font-size: 13px;
+    }
+
+    .input-header {
+        font-size: 13px;
+        width: 190px;
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    .removed-img {
+        display: none;
+    }
+
+    .title-header {
+        font-size: calc(1vw + 20px);
+    }
+
+    .sub-title-header {
+        font-size: calc(1vw + 10px);
+    }
+
+    .input-header {
+        width: 300px;
+        font-size: 15px;
+    }
+
+    .btn-header {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .container-header {
+        flex-direction: column-reverse;
+    }
+
+    .input-header {
+        width: 280px;
+    }
+
+    .imgs-header {
+        width: 350px;
+        height: 450px;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .input-header {
+        width: 260px;
+    }
+}
+
+@media only screen and (max-width: 465px) {
+    .input-header {
+        width: 240px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .container-texts-header {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .imgs-header {
+        width: 300px;
+        height: 400px;
+    }
+
+    .input-header {
+        width: 200px;
+    }
+}

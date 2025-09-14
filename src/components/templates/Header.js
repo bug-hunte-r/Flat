@@ -6,7 +6,7 @@ import Image from 'next/image'
 function Header() {
     return (
         <div className='container-header'>
-            <Image src={'/imgs/header-img.png'} width={600} height={600} alt='header-img' className='imgs-header' />
+            <Image src={'/imgs/header-img.png'} width={600} height={600} alt='header-img' className='imgs-header removed-img' />
             <div className='container-texts-header'>
                 <h1 className='title-header'>همین الان پروفایل خودتو بساز!</h1>
                 <p className='sub-title-header'>رایگانه و کمتر از 2 دقیقه طول میکشه</p>
