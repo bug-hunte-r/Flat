@@ -1,3 +1,28 @@
+@media only screen and (min-width: 1400px) {
+    .container-navbar {
+        height: 80px;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .logo{
+        width: 70px;
+        height: 40px;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    .logo{
+        width: 100px;
+        height: 60px;
+    }
+
+    .container-navbar {
+        height: 100px;
+    }
+}
+
+
 @media only screen and (max-width: 790px) {
     .icon-hamberger-menu{
         display: block;
