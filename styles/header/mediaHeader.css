@@ -1,6 +1,6 @@
-@media only screen and (min-width: 1426px) {
+@media only screen and (min-width: 1425px) {
     .container-texts-header{
-        width: 41%;
+        width: 48%;
     }
 
     .imgs-header {
@@ -50,52 +50,55 @@
     }
 }
 
-@media only screen and (max-width: 924px) {
+@media only screen and (max-width: 1119px) {
     .imgs-header {
         width: 250px;
         height: 350px;
     }
 }
 
-@media only screen and (max-width: 896px) {
+@media only screen and (max-width: 1021px) {
+    .title-header {
+        color: #EE1F36;
+        font-size: calc(1vw + 18px);
+    }
+}
+
+
+@media only screen and (max-width: 1007px) {
     .input-header {
         width: 270px;
     }
 }
 
-@media only screen and (max-width: 892px) {
-    .title-header {
-        font-size: calc(1vw + 18px);
-    }
-}
-
-@media only screen and (max-width: 866px) {
-    .input-header {
-        width: 260px;
-    }
-}
-
-@media only screen and (max-width: 862px) {
+@media only screen and (max-width: 985px) {
     .title-header {
         font-size: calc(1vw + 16px);
     }
 }
 
-@media only screen and (max-width: 856px) {
+@media only screen and (max-width: 971px) {
     .input-header {
-        width: 250px;
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 949px) {
+    .title-header {
+        font-size: calc(1vw + 14px);
+    }
+}
+
+@media only screen and (max-width: 913px) {
+    .imgs-header {
+        width: 200px;
+        height: 300px;
     }
 }
 
 @media only screen and (max-width: 846px) {
     .input-header {
-        width: 240px;
-    }
-}
-
-@media only screen and (max-width: 836px) {
-    .input-header {
-        width: 230px;
+        width: 220px;
     }
 }
 
@@ -117,19 +120,19 @@
     }
 }
 
-@media only screen and (max-width: 806px) {
+@media only screen and (max-width: 811px) {
     .input-header {
         width: 200px;
     }
 }
 
-@media only screen and (max-width: 803px) {
+@media only screen and (max-width: 807px) {
     .title-header {
         font-size: calc(1vw + 12px);
     }
 }
 
-@media only screen and (max-width: 796px) {
+@media only screen and (max-width: 799px) {
     .btn-header {
         font-size: 13px;
     }
@@ -160,6 +163,27 @@
 
     .btn-header {
         font-size: 15px;
+    }
+
+    .imgs-header {
+        width: 300px;
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .input-header {
+        width: 190px;
+    }
+}
+
+@media only screen and (max-width: 738px) {
+    .input-header {
+        width: 190px;
+    }
+
+    .title-header {
+        font-size: calc(1vw + 18px);
     }
 }
 
@@ -193,6 +217,12 @@
 @media only screen and (max-width: 450px) {
     .container-texts-header {
         width: 100%;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .input-header {
+        width: 200px;
     }
 }
 

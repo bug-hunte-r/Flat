@@ -18,5 +18,13 @@ a {
   width: 100vw;
   display: flex;
   justify-self: center;
+  flex-direction: column;
   background-color: #F5F5F5;
+}
+
+.sub-container{
+  width: 85vw;
+  display: flex;
+  align-self: center;
+  justify-content: center;
 }
