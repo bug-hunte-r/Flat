@@ -15,7 +15,8 @@ a {
 }
 
 .container{
-  width: 65vw;
+  width: 100vw;
   display: flex;
   justify-self: center;
+  background-color: #F5F5F5;
 }
