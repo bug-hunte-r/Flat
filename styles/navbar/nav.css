@@ -13,7 +13,7 @@
 }
 
 .nav-links {
-    font-size: 15px;
+    font-size: calc(1vw + 2px);
     color: #595959;
     font-weight: 300;
     font-family: yekan;
@@ -22,26 +22,41 @@
 .right-sec-navbar {
     display: flex;
     align-items: center;
-    width: 50%;
-    justify-content: space-between;
+    width: 80%;
+    gap: 30px;
+    transition: 0.5s;
 }
 
 .left-sec-navbar {
-    width: 11%;
+    width: 20%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: end;
+    gap: 15px;
 }
 
 .login-btn {
     color: #595959;
-    font-size: 15px;
+    font-size: calc(1vw + 2px);
 }
 
 .signup-btn {
-    font-size: 15px;
+    font-size: calc(1vw + 2px);
     background-color: #EF273DF6;
     color: white;
     padding: 3px 15px;
     border-radius: 8px;
+}
+
+.icon-hamberger-menu{
+    font-size: 40;
+    color: #595959;
+    display: none;
+    cursor: pointer;
+}
+
+.icon-close-menu{
+    color: white;
+    display: none;
+    font-size: 20px;
 }

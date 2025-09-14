@@ -1,0 +1,83 @@
+@media only screen and (max-width: 790px) {
+    .icon-hamberger-menu{
+        display: block;
+    }
+
+    .right-sec-navbar{
+        background-color: #EF273DF6;
+        flex-direction: column;
+        height: 100vh;
+        justify-content: start;
+        padding-top: 50px;
+        align-items: center;
+        width: 300px;
+        position: fixed;
+        right: 0;
+        top: 0;
+        transform: translateX(100%);
+    }
+
+    .nav-links{
+        font-size: 15px;
+        font-weight: 500;
+        color: white;
+    }
+
+    .icon-close-menu{
+        display: block;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+    }
+
+    .logo {
+        width: 65px;
+        height: 40px;
+        background-color: white;
+        border-radius: 5px;
+    }
+
+    .left-sec-navbar {
+        width: 50%;
+    }
+
+    .right-sec-navbar.open-menu{
+        transform: translateX(0%);
+    }
+    
+    .right-sec-navbar.close-menu{
+        transform: translateX(100%);
+    }
+
+    .login-btn{
+        font-size: 14px;
+    }
+
+    .signup-btn{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .container-navbar{
+        padding: 0 80px;
+    }
+}
+
+@media only screen and (max-width: 540px){
+    .right-sec-navbar{
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .container-navbar{
+        padding: 0 50px;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .container-navbar{
+        padding: 0 30px;
+    }
+}
