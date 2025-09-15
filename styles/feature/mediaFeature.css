@@ -1,0 +1,127 @@
+@media only screen and (min-width: 1450px) {
+    .feature-card {
+        height: 250px;
+    }
+
+    .titles-features-cards {
+        font-size: calc(1vw + 13px);
+    }
+
+    .descs-feature-cards {
+        font-size: calc(1vw + 4px);
+    }
+
+    .title-features {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width: 1700px) {
+    .feature-card {
+        height: 280px;
+    }
+
+    .icons-feature-cards {
+        width: 100px;
+        height: 100px;
+        margin-top: -60px;
+    }
+
+    .title-features {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (min-width: 1850px) {
+    .feature-card {
+        height: 300px;
+    }
+}
+
+@media only screen and (min-width: 2100px) {
+    .feature-card {
+        height: 320px;
+    }
+}
+
+@media only screen and (min-width: 2200px) {
+    .feature-card {
+        height: 340px;
+    }
+}
+
+
+@media only screen and (max-width: 1115px) {
+    .titles-features-cards {
+        font-size: calc(1vw + 10px);
+    }
+
+    .descs-feature-cards {
+        font-size: calc(1vw + 2px);
+    }
+}
+
+@media only screen and (max-width: 979px) {
+    .titles-features-cards {
+        font-size: calc(1vw + 8px);
+    }
+
+    .descs-feature-cards {
+        font-size: calc(1vw + 2px);
+    }
+}
+
+@media only screen and (max-width: 834px) {
+    .container-features-cards {
+        grid-template-columns: repeat(2, 45%);
+    }
+
+    .titles-features-cards {
+        font-size: calc(1vw + 14px);
+    }
+
+    .descs-feature-cards {
+        font-size: calc(1vw + 5px);
+    }
+}
+
+@media only screen and (max-width: 746px) {
+    .titles-features-cards {
+        font-size: calc(1vw + 12px);
+    }
+
+    .descs-feature-cards {
+        font-size: calc(1vw + 5px);
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .container-features-cards {
+        grid-template-columns: repeat(1, 70%);
+    }
+
+    .titles-features-cards {
+        font-size: calc(1vw + 16px);
+    }
+
+    .descs-feature-cards {
+        font-size: calc(1vw + 7px);
+    }
+}
+
+@media only screen and (max-width: 463px) {
+    .container-features-cards {
+        grid-template-columns: repeat(1, 80%);
+    }
+}
+
+@media only screen and (max-width: 394px) {
+
+    .titles-features-cards {
+        font-size: calc(1vw + 14px);
+    }
+
+    .descs-feature-cards {
+        font-size: calc(1vw + 8px);
+    }
+}
