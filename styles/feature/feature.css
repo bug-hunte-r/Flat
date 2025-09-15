@@ -1,0 +1,49 @@
+.title-features{
+    color: #EE1F36;
+    font-weight: 800;
+}
+
+.container-features-cards{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    justify-content: center;
+    gap: 20px;
+    height: 90vh;
+    margin-top: 70px;
+}
+
+.feature-card{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    height: 230px;
+    gap: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 13px -8px #000000;
+}
+
+.icons-feature-cards{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-top: -50px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 9px -3px #000000;
+}
+
+.titles-features-cards{
+    color: black;
+    font-size: 23px;
+}
+
+.descs-feature-cards{
+    color: #595959;
+    font-size: 15px;
+}

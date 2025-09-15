@@ -17,7 +17,7 @@ function FeaturCard() {
     return (
         <>
             {featureCardsInfo.map((card) => (
-                <div className='feature-card'>
+                <div className='feature-card' key={card.id}>
                     <Image src={card.img} width={500} height={500} alt='icon' className='icons-feature-cards' />
                     <h2 className='titles-features-cards'>{card.title}</h2>
                     <p className='descs-feature-cards'>{card.desc}</p>
