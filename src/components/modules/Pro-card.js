@@ -1,5 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
+import style from '../../../styles/pro/pro.css'
+import media from '../../../styles/pro/mediaPro.css'
 
 function ProCard() {
 

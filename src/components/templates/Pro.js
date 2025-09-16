@@ -6,11 +6,15 @@ import ProCard from '../modules/Pro-card'
 function Pro() {
   return (
     <div className='sub-container'>
+      <div className='black-container-pro'>
+
         <h2 className='title-pro-cards'>حرفه ای برای تویی که بیشتر از یک پروفایل میخوای!</h2>
 
         <div className='container-pro-cards'>
-            <ProCard />
+          <ProCard />
         </div>
+
+      </div>
     </div>
   )
 }
