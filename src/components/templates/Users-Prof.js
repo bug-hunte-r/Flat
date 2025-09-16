@@ -10,7 +10,7 @@ function UsersProf() {
         <div className='container-user-prof'>
             <h2 className='title-user-prof'>بیش از 1000 پروفایل در فلت</h2>
             <p className='sub-title-user-prof'>برترین پروفایل های طراحی شده توسط شما </p>
-            <Link href={'/'}>نمایش بیشتر در اکسپلور</Link>
+            <Link href={'/'} className='see-more-btn-users-profile'>نمایش بیشتر در اکسپلور</Link>
             <div className='container-users-info'>
                 <Users />
                 <Users />
