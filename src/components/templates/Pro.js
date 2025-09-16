@@ -7,7 +7,7 @@ function Pro() {
   return (
     <div className='sub-container'>
 
-      <h2 className='title-pro-cards'><span className='bold'>حرفه ای</span> برای تویی که بیشتر از یک پروفایل میخوای!</h2>
+      <h2 className='title-pro-cards-section'><span className='bold'>حرفه ای</span> برای تویی که بیشتر از یک پروفایل میخوای!</h2>
 
       <div className='container-pro-cards'>
         <ProCard />

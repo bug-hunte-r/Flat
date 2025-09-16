@@ -1,0 +1,147 @@
+@media only screen and (min-width: 1450px) {
+
+    .pro-card {
+        height: 450px;
+    }
+
+    .container-pro-cards{
+        margin-top: 1130px;
+    }
+
+    .titles-pros-cards {
+        font-size: calc(1vw + 13px);
+    }
+
+    .descs-pro-cards {
+        font-size: calc(1vw + 4px);
+    }
+
+    .title-pro-cards-section {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width: 1700px) {
+
+    .title-pro-cards-section {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (min-width: 1850px) {
+    .pro-card {
+        height: 500px;
+    }
+
+    .container-pro-cards{
+        margin-top: 1230px;
+    }
+}
+
+
+@media only screen and (max-width: 1115px) {
+    .titles-pros-cards {
+        font-size: calc(1vw + 10px);
+    }
+
+    .descs-pro-cards {
+        font-size: calc(1vw + 2px);
+    }
+}
+
+@media only screen and (max-width: 979px) {
+    .titles-pros-cards {
+        font-size: calc(1vw + 8px);
+    }
+
+    .descs-pro-cards {
+        font-size: calc(1vw + 2px);
+    }
+}
+
+@media only screen and (max-width: 834px) {
+    .container-pro-cards {
+        grid-template-columns: repeat(2, 40%);
+        margin-top: 1430px;
+    }
+
+    .titles-pros-cards {
+        font-size: calc(1vw + 14px);
+    }
+
+    .descs-pro-cards {
+        font-size: calc(1vw + 5px);
+    }
+}
+
+@media only screen and (max-width: 746px) {
+    .titles-pros-cards {
+        font-size: calc(1vw + 12px);
+    }
+
+    .descs-pro-cards {
+        font-size: calc(1vw + 5px);
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .container-pro-cards {
+        grid-template-columns: repeat(1, 60%);
+        margin-top: 2700px;
+    }
+
+    .titles-pros-cards {
+        font-size: calc(1vw + 16px);
+    }
+
+    .descs-pro-cards {
+        font-size: calc(1vw + 7px);
+    }
+}
+
+@media only screen and (max-width: 601px) {
+    .title-pro-cards-section {
+        font-size: calc(3vw + 5px);
+    }
+}
+
+@media only screen and (max-width: 504px) {
+    .title-pro-cards-section {
+        font-size: calc(3vw + 4px);
+    }
+}
+
+@media only screen and (max-width: 403px) {
+    .title-pro-cards-section {
+        font-size: calc(3vw + 3px);
+    }
+}
+
+@media only screen and (max-height: 600px) and (max-width: 700px) {
+    .title-pro-cards-section {
+        margin-top: 150px;
+    }
+}
+
+@media only screen and (max-height: 700px) and (max-width: 700px) {
+    .title-pro-cards-section {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 463px) {
+    .container-pro-cards {
+        grid-template-columns: repeat(1, 70%);
+    }
+}
+
+@media only screen and (max-width: 394px) {
+
+    .titles-pros-cards {
+        font-size: calc(1vw + 14px);
+    }
+
+    .descs-pro-cards {
+        font-size: calc(1vw + 8px);
+    }
+}
