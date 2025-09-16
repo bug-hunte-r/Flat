@@ -1,0 +1,130 @@
+@media only screen and (min-width: 1470px) {
+
+    .input-question-form {
+        height: 50px;
+    }
+
+    .btn-question-form {
+        height: 50px;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+
+    .input-question-form {
+        height: 60px;
+        font-size: calc(1vw + 4px);
+    }
+
+    .btn-question-form {
+        height: 60px;
+        font-size: calc(1vw + 6px);
+    }
+}
+
+@media only screen and (min-width: 1800px) {
+
+    .input-question-form {
+        height: 70px;
+        font-size: calc(1vw + 5px);
+    }
+
+    .btn-question-form {
+        height: 70px;
+        font-size: calc(1vw + 7px);
+    }
+}
+
+@media only screen and (min-width: 2200px) {
+
+    .input-question-form {
+        height: 80px;
+        font-size: calc(1vw + 6px);
+    }
+
+    .btn-question-form {
+        height: 80px;
+        font-size: calc(1vw + 8px);
+    }
+}
+
+@media only screen and (max-width: 834px) {
+    .container-questions {
+        margin-top: 1500px;
+        flex-direction: column;
+        row-gap: 100px;
+    }
+
+    .container-acor {
+        width: 100%;
+    }
+
+    .container-question-form {
+        width: 80%;
+    }
+
+    .title-questions-section {
+        font-size: calc(2vw + 14px);
+    }
+
+    .title-question-form {
+        font-size: calc(3vw + 7px);
+    }
+
+    .desc-question-form {
+        font-size: calc(1vw + 7px);
+    }
+
+    .input-question-form {
+        font-size: calc(1vw + 7px);
+    }
+
+    .btn-question-form {
+        font-size: calc(1vw + 7px);
+    }
+
+    .texts-acor {
+        font-size: calc(1vw + 7px) !important;
+    }
+
+    .desc-acor {
+        font-size: calc(1vw + 7px) !important;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .container-questions {
+        margin-top: 2750px;
+    }
+
+    .container-question-form {
+        width: 100%;
+    }
+
+    .texts-acor {
+        font-size: calc(1vw + 10px) !important;
+    }
+
+    .desc-acor {
+        font-size: calc(1vw + 10px) !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .title-question-form {
+        font-size: calc(3vw + 15px);
+    }
+
+    .desc-question-form {
+        font-size: calc(1vw + 10px);
+    }
+
+    .input-question-form {
+        font-size: calc(1vw + 10px);
+    }
+
+    .btn-question-form {
+        font-size: calc(1vw + 10px);
+    }
+}
