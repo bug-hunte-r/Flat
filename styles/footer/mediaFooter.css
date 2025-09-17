@@ -1,0 +1,263 @@
+@media only screen and (max-width: 1180px) {
+    .container-right {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1040px) {
+    .container-left {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .container-footer {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 700px;
+    }
+
+    .container-left {
+        width: 100%;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+
+    .container-right {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .container-un-footer {
+        margin-top: 440px;
+    }
+
+    .develop-from-me {
+        font-size: calc(1vw + 3px);
+    }
+
+    .save-data-text {
+        font-size: calc(1vw + 3px);
+    }
+}
+
+@media only screen and (max-width: 890px) {
+    .about-flat-title {
+        font-size: calc(1vw + 7px);
+    }
+
+    .title-rich-quick {
+        font-size: calc(1vw + 7px);
+    }
+
+    .title-social {
+        font-size: calc(1vw + 7px);
+    }
+
+    .title-avatars {
+        font-size: calc(1vw + 7px);
+    }
+
+    .text-about-flat {
+        font-size: calc(1vw + 5px);
+    }
+
+    .links-rich-quick {
+        font-size: calc(1vw + 5px);
+    }
+
+    .btn-social {
+        font-size: calc(1vw + 5px);
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+    .develop-from-me {
+        font-size: calc(1vw + 4px);
+    }
+
+    .save-data-text {
+        font-size: calc(1vw + 4px);
+    }
+
+    .container-un-footer {
+        padding: 0 80px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .container-left {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        row-gap: 50px;
+    }
+
+    .container-right {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        row-gap: 50px;
+    }
+
+    .about-flat-title {
+        font-size: calc(1vw + 14px);
+    }
+
+    .title-rich-quick {
+        font-size: calc(1vw + 14px);
+    }
+
+    .title-social {
+        font-size: calc(1vw + 14px);
+    }
+
+    .title-avatars {
+        font-size: calc(1vw + 14px);
+    }
+
+    .text-about-flat {
+        font-size: calc(1vw + 5px);
+    }
+
+    .links-rich-quick {
+        font-size: calc(1vw + 5px);
+    }
+
+    .btn-social {
+        font-size: calc(1vw + 5px);
+    }
+
+    .container-about-flat {
+        width: 100%;
+    }
+
+    .container-rich-quick {
+        width: 100%;
+    }
+
+    .container-social {
+        width: 100%;
+    }
+
+    .develop-from-me {
+        font-size: calc(1vw + 5px);
+    }
+
+    .save-data-text {
+        font-size: calc(1vw + 5px);
+    }
+
+    .container-un-footer {
+        padding: 0 20px;
+        margin-top: 740px;
+    }
+
+    .container-footer {
+        margin-top: 1000px;
+    }
+}
+
+@media only screen and (min-width: 1650px) {
+
+    .container-footer {
+        margin-top: 900px;
+    }
+
+    .container-un-footer {
+        margin-top: 335px;
+    }
+
+    .about-flat-title {
+        font-size: calc(1vw + 14px);
+    }
+
+    .title-rich-quick {
+        font-size: calc(1vw + 14px);
+    }
+
+    .title-social {
+        font-size: calc(1vw + 14px);
+    }
+
+    .title-avatars {
+        font-size: calc(1vw + 14px);
+    }
+
+    .text-about-flat {
+        font-size: calc(1vw + 5px);
+    }
+
+    .links-rich-quick {
+        font-size: calc(1vw + 5px);
+    }
+
+    .btn-social {
+        font-size: calc(1vw + 5px);
+    }
+
+    .container-about-flat {
+        width: 370px;
+    }
+
+    .container-rich-quick {
+        width: 200px;
+    }
+
+    .container-social {
+        width: 50%;
+    }
+
+    .container-avatars {
+        width: 50%;
+    }
+
+    .container-avatars-img {
+        justify-content: space-evenly;
+    }
+}
+
+@media only screen and (min-width: 1727px) {
+    .container-un-footer {
+        margin-top: 370px;
+    }
+}
+
+@media only screen and (min-width: 1780px) {
+    .container-about-flat {
+        width: 50%;
+    }
+
+    .container-rich-quick {
+        width: 40%;
+    }
+
+    .container-un-footer {
+        margin-top: 420px;
+    }
+}
+
+@media only screen and (min-width: 1903px) {
+    .container-un-footer {
+        margin-top: 395px;
+    }
+}
+
+@media only screen and (min-width: 2100px) {
+    .container-un-footer {
+        margin-top: 423px;
+    }
+}
+
+@media only screen and (min-width: 2250px) {
+    .container-un-footer {
+        margin-top: 450px;
+    }
+}
+
+@media only screen and (min-width: 2430px) {
+    .container-un-footer {
+        margin-top: 468px;
+    }
+}

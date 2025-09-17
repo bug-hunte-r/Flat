@@ -1,17 +1,22 @@
 .container-footer {
     background-color: #2B2A2D;
     width: 100%;
-    position: absolute;
-    margin-top: 800px;
-    display: grid;
-    grid-template-columns: 330px 150px 160px 250px;
+    margin-top: 200px;
+    display: flex;
     justify-content: space-evenly;
-    padding: 50px 0;
+    position: absolute;
+    margin-top: 600px;
+    padding: 50px;
+}
+
+.container-right{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
 }
 
 .container-about-flat {
-    /* background-color: red; */
-    width: 330px;
+    width: 300px;
 }
 
 .about-flat-title {
@@ -25,22 +30,26 @@
 }
 
 .container-rich-quick {
-    /* background-color: blue; */
-    width: 150px;
+    width: 120px;
 }
 
 .title-rich-quick {
     color: white;
 }
 
-.links-rich-quick{
+.links-rich-quick {
     color: white;
     font-weight: 300;
     font-size: 15px;
 }
 
+.container-left{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+
 .container-social {
-    /* background-color: green; */
     width: 160px;
 }
 
@@ -59,7 +68,6 @@
 }
 
 .container-avatars {
-    /* background-color: yellow; */
     width: 210px;
     display: flex;
     flex-direction: column;
@@ -81,28 +89,31 @@
     cursor: pointer;
 }
 
-.container-un-footer{
+.container-un-footer {
     width: 100%;
-    background-color: white;
-    position: absolute;
-    top: 3900px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 40px;
     align-items: center;
+    position: absolute;
+    margin-top: 215px;
+    background-color: white;
+    padding: 0 130px;
 }
 
-.develop-from-me{
+.develop-from-me {
     color: black;
     font-weight: 500;
+    font-size: calc(1vw + 1px);
 }
 
-.save-data-text{
+.save-data-text {
     color: black;
     font-weight: 500;
+    font-size: calc(1vw + 1px);
 }
 
-.my-name{
+.my-name {
     cursor: pointer;
     color: #EE1F36;
 }
