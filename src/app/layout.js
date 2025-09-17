@@ -1,5 +1,7 @@
+import Navbar from "@/components/templates/Navbar";
 import "./globals.css";
 import localFont from 'next/font/local'
+import Footer from "@/components/templates/Footer";
 
 const yekan = localFont({
   src: [
@@ -25,7 +27,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="fa" dir="rtl" className={`${yekan.className}`}>
       <body>
-        {children}
+        <div className="container">
+          <Navbar />
+          {children}
+        </div>
       </body>
     </html>
   );

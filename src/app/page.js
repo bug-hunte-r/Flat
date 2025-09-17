@@ -9,15 +9,12 @@ import Footer from "@/components/templates/Footer";
 export default function Home() {
   return (
     <>
-      <Navbar />
-      <div className="container">
         <Header />
         <Feature />
         <Pro />
         <Question />
         <UsersProf />
         <Footer />
-      </div>
     </>
   );
 }
