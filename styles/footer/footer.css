@@ -1,0 +1,108 @@
+.container-footer {
+    background-color: #2B2A2D;
+    width: 100%;
+    position: absolute;
+    margin-top: 800px;
+    display: grid;
+    grid-template-columns: 330px 150px 160px 250px;
+    justify-content: space-evenly;
+    padding: 50px 0;
+}
+
+.container-about-flat {
+    /* background-color: red; */
+    width: 330px;
+}
+
+.about-flat-title {
+    color: white;
+}
+
+.text-about-flat {
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.container-rich-quick {
+    /* background-color: blue; */
+    width: 150px;
+}
+
+.title-rich-quick {
+    color: white;
+}
+
+.links-rich-quick{
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.container-social {
+    /* background-color: green; */
+    width: 160px;
+}
+
+.title-social {
+    color: white;
+}
+
+.btn-social {
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+    background: none;
+    font-family: yekan;
+    border: none;
+    cursor: pointer;
+}
+
+.container-avatars {
+    /* background-color: yellow; */
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    text-align: center;
+}
+
+.title-avatars {
+    color: white;
+}
+
+.container-avatars-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgs-avatar {
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container-un-footer{
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 3900px;
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+    align-items: center;
+}
+
+.develop-from-me{
+    color: black;
+    font-weight: 500;
+}
+
+.save-data-text{
+    color: black;
+    font-weight: 500;
+}
+
+.my-name{
+    cursor: pointer;
+    color: #EE1F36;
+}
