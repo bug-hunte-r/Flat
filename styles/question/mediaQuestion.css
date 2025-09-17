@@ -1,3 +1,9 @@
+@media only screen and (min-width: 1450px) {
+    .container-questions {
+        margin-top: 1200px;
+    }
+}
+
 @media only screen and (min-width: 1470px) {
 
     .input-question-form {
@@ -32,6 +38,12 @@
     .btn-question-form {
         height: 70px;
         font-size: calc(1vw + 7px);
+    }
+}
+
+@media only screen and (min-width: 1850px) {
+    .container-questions {
+        margin-top: 1300px;
     }
 }
 

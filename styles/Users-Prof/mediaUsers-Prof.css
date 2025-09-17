@@ -1,0 +1,174 @@
+@media only screen and (min-width: 1400px) {
+    .container-user-prof {
+        width: 80%;
+    }
+
+    .see-more-btn-users-profile {
+        font-size: 17px;
+    }
+
+    .sub-title-user-prof {
+        font-size: 17px;
+    }
+
+    .container-user-prof {
+        height: 250px;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+
+    .user-img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .users-name {
+        font-size: 18px;
+    }
+
+    .users-profile-address {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    .container-user-prof {
+        width: 70%;
+    }
+
+    .see-more-btn-users-profile {
+        font-size: 23px;
+    }
+
+    .sub-title-user-prof {
+        font-size: 23px;
+    }
+
+    .title-user-prof {
+        font-size: 50px;
+    }
+
+    .container-user-prof {
+        height: 300px;
+    }
+}
+
+@media only screen and (min-width: 2000px) {
+
+    .user-img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .users-name {
+        font-size: 20px;
+    }
+
+    .users-profile-address {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 2400px) {
+
+    .user-img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .users-name {
+        font-size: 23px;
+    }
+
+    .users-profile-address {
+        font-size: 23px;
+    }
+
+    .container-user-prof {
+        height: 350px;
+    }
+
+    .see-more-btn-users-profile {
+        font-size: 25px;
+    }
+
+    .sub-title-user-prof {
+        font-size: 25px;
+    }
+
+    .title-user-prof {
+        font-size: 60px;
+    }
+}
+
+
+@media only screen and (max-width: 834px) {
+    .user-info:nth-child(n+5) {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .user-info:nth-child(n+4) {
+        display: none;
+    }
+
+    .title-user-prof {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .title-user-prof {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .user-info:nth-child(n+3) {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .title-user-prof {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .user-img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .users-name {
+        font-size: 14px;
+    }
+
+    .users-profile-address {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .title-user-prof {
+        font-size: 23px;
+    }
+
+    .sub-title-user-prof {
+        font-size: 13px;
+    }
+
+    .see-more-btn-users-profile {
+        font-size: 13px;
+        font-weight: 500;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .title-user-prof {
+        font-size: 20px;
+    }
+}
