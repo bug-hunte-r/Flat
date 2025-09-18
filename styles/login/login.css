@@ -1,8 +1,8 @@
-body{
+body {
     overflow-x: hidden;
 }
 
-.container-login-form{
+.container-login-form {
     background-color: white;
     width: 300px;
     height: 280px;
@@ -14,7 +14,7 @@ body{
     justify-content: space-evenly;
 }
 
-.sec-container{
+.sec-container {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -22,25 +22,49 @@ body{
     justify-content: center;
 }
 
-.logo-login-form{
+.sec-container-verify-code {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.show-verify-form {
+    display: flex;
+}
+
+.Unshow-verify-form {
+    display: none;
+}
+
+.show-login-form {
+    display: flex;
+}
+
+.Unshow-login-form {
+    display: none;
+}
+
+.logo-login-form {
     width: 80px;
     height: 40px;
     object-fit: contain;
+    margin: 0 auto;
 }
 
-.title-login-form{
+.title-login-form {
     color: #1D1C20;
     font-size: 23px;
     font-weight: 500;
 }
 
-.text-login-form{
+.text-login-form {
     color: #B5B5B5;
     font-size: 12px;
-
 }
 
-.input-login-form{
+.input-login-form {
     border: 1px solid #CFCFCF;
     border-radius: 5px;
     padding: 7px;
@@ -51,11 +75,11 @@ body{
     letter-spacing: 1px;
 }
 
-.input-login-form:focus{
+.input-login-form:focus {
     border: 1px solid #EE1F36;
 }
 
-.btn-login-form{
+.btn-login-form {
     background-color: #EE1F36;
     border: none;
     color: white;
@@ -64,4 +88,23 @@ body{
     padding: 5px;
     font-family: yekan;
     cursor: pointer;
+}
+
+.timer {
+    color: #B5B5B5;
+}
+
+.container-logo-and-icon{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 90%;
+}
+
+.icon-veryify{
+    color: #595959;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
 }
