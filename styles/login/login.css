@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 .container-login-form{
     background-color: white;
     width: 300px;
@@ -29,7 +33,6 @@
     color: #1D1C20;
     font-size: 23px;
     font-weight: 500;
-    margin-left: 130px;
 }
 
 .text-login-form{
@@ -45,6 +48,12 @@
     direction: ltr;
     width: 80%;
     outline: none;
+    transition: 0.3s;
+    letter-spacing: 1px;
+}
+
+.input-login-form:focus{
+    border: 1px solid #EE1F36;
 }
 
 .btn-login-form{
