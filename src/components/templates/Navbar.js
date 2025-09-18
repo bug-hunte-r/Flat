@@ -29,7 +29,7 @@ function Navbar() {
 
         <div className='left-sec-navbar'>
           <Link href={'/Login'} className='login-btn'>ورود</Link>
-          <Link href={'/'} className='signup-btn'>ثبت نام</Link>
+          <Link href={'/Signup'} className='signup-btn'>ثبت نام</Link>
         </div>
 
       </div>
