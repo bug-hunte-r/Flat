@@ -10,6 +10,9 @@ function Login() {
   const [isShowVerifyForm, setIsShowVerifyForm] = useState(false)
   const [isShowLoginForm, setIsShowLoginForm] = useState(true)
 
+  const [phone, setPhone] = useState()
+  const [code, setCode] = useState()
+
   return (
     <div className='sub-container'>
 
@@ -18,7 +21,7 @@ function Login() {
           <Image src={'/imgs/logo.png'} width={100} height={100} alt='logo' className='logo-login-form' />
           <h4 className='title-login-form'>ورود</h4>
           <p className='text-login-form'>سلام! <br /> لطفاً شماره موبایل خود را وارد کنید.</p>
-          <input type='number' placeholder='09' className='input-login-form' />
+          <input type='number' placeholder='09' className='input-login-form' value={phone} onChange={event => setPhone(event.target.value)} />
           <button className='btn-login-form' onClick={() => { setIsShowVerifyForm(true); setIsShowLoginForm(false) }}>ورود</button>
         </div>
       </div>
@@ -31,7 +34,7 @@ function Login() {
           </div>
           <h4 className='title-login-form'>کد تایید را وارد کنید</h4>
           <p className='text-login-form'>کد تایید برای شماره ۰۹۱۴۴۳۴۸۵۵۴ پیامک شد</p>
-          <input type='number' className='input-login-form' />
+          <input type='number' className='input-login-form' value={code} onChange={event => setCode(event.target.value)} />
           <p className='timer'>2:00</p>
           <button className='btn-login-form'>تایید</button>
         </div>
