@@ -108,3 +108,19 @@ body {
     position: absolute;
     left: 0;
 }
+
+.show-ok-btn{
+    display: block;
+}
+
+.Unshow-ok-btn{
+    display: none;
+}
+
+.show-resend-btn{
+    display: block;
+}
+
+.Unshow-resend-btn{
+    display: none;
+}
