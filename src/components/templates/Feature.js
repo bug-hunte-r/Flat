@@ -6,11 +6,13 @@ import FeaturCard from '../modules/Featur-card'
 function Feature() {
 
   return (
-    <div className='sub-container'>
-      <h1 className='title-features'>ویژگی های فلت</h1>
+    <div className='container'>
+      <div className='sub-container'>
+        <h1 className='title-features'>ویژگی های فلت</h1>
 
-      <div className='container-features-cards'>
-        <FeaturCard />
+        <div className='container-features-cards'>
+          <FeaturCard />
+        </div>
       </div>
     </div>
   )

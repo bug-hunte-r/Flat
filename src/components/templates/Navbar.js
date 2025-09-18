@@ -12,25 +12,27 @@ function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
-    <div className='container-navbar'>
+    <div className='container'>
+      <div className='container-navbar'>
 
-      <IoIosMenu className='icon-hamberger-menu' onClick={() => setIsMenuOpen(true)} />
+        <IoIosMenu className='icon-hamberger-menu' onClick={() => setIsMenuOpen(true)} />
 
-      <div className={`right-sec-navbar ${isMenuOpen ? 'open-menu' : 'close-menu'}`}>
-      <IoClose className='icon-close-menu' onClick={() => setIsMenuOpen(false)} />
-      <Image src={'/imgs/logo.png'} width={600} height={600} alt='logo' className='logo'/>
-      <Link href={'/'} className='nav-links'>فلت کارت</Link>
-      <Link href={'/'} className='nav-links'>فروشگاه</Link>
-      <Link href={'/'} className='nav-links'>پلن ها</Link>
-      <Link href={'/'} className='nav-links'>اکسپلور</Link>
-      <Link href={'/'} className='nav-links'>سوالات متداول</Link>
+        <div className={`right-sec-navbar ${isMenuOpen ? 'open-menu' : 'close-menu'}`}>
+          <IoClose className='icon-close-menu' onClick={() => setIsMenuOpen(false)} />
+          <Image src={'/imgs/logo.png'} width={600} height={600} alt='logo' className='logo' />
+          <Link href={'/'} className='nav-links'>فلت کارت</Link>
+          <Link href={'/'} className='nav-links'>فروشگاه</Link>
+          <Link href={'/'} className='nav-links'>پلن ها</Link>
+          <Link href={'/'} className='nav-links'>اکسپلور</Link>
+          <Link href={'/'} className='nav-links'>سوالات متداول</Link>
+        </div>
+
+        <div className='left-sec-navbar'>
+          <Link href={'/Login'} className='login-btn'>ورود</Link>
+          <Link href={'/'} className='signup-btn'>ثبت نام</Link>
+        </div>
+
       </div>
-
-      <div className='left-sec-navbar'>
-        <Link href={'/'} className='login-btn'>ورود</Link>
-        <Link href={'/'} className='signup-btn'>ثبت نام</Link>
-      </div>
-
     </div>
   )
 }

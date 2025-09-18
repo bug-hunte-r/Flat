@@ -20,12 +20,13 @@ function Question() {
     };
 
     return (
-        <div className='sub-container'>
+        <div className='container'>
+            <div className='sub-container'>
 
-            <div className='container-questions'>
+                <div className='container-questions'>
 
-                <div className='container-acor'>
-                    <h2 className='title-questions-section'>جواب همه سوالات اینجاست...</h2>
+                    <div className='container-acor'>
+                        <h2 className='title-questions-section'>جواب همه سوالات اینجاست...</h2>
 
                         <Accordion
                             expanded={expanded === 'panel1'}
@@ -90,10 +91,10 @@ function Question() {
                                 aria-controls="panel2-content"
                                 id="panel2-header"
                             >
-                                <Typography component="span"  className='texts-acor'>با خرید کارت ویزیت هوشمند چه امکاناتی دریافت میکنم؟</Typography>
+                                <Typography component="span" className='texts-acor'>با خرید کارت ویزیت هوشمند چه امکاناتی دریافت میکنم؟</Typography>
                             </AccordionSummary>
                             <AccordionDetails>
-                                <Typography  className='desc-acor'>
+                                <Typography className='desc-acor'>
                                     ما در مجموعه فلت امکانات بیشماری رو براتون در نظر گرفتیم. برخی از مهمترین امکانات عبارتند از قابلیت درج شماره موبایل، شماره تماس، شبکه های پیام رسان داخلی و خارجی، لینک شبکه های اجتماعی، قابلیت اضافه کردن شماره کارت، آدرس (متنی یا لوکیشن)، گالری تصاویر، ویدیو، ذخیره در مخاطبین، فروشگاه ساز، باشگاه مشتریان، آمار پروفایل و...
                                 </Typography>
                             </AccordionDetails>
@@ -328,18 +329,19 @@ function Question() {
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
-                </div>
+                    </div>
 
-                <div className='container-question-form'>
-                    <h2 className='title-question-form'>مشاوره رایگان</h2>
-                    <p className='desc-question-form'>اگه جواب سوالتو پیدا نکردی یا راهنمایی نیاز داشتی شمارتو برامون بفرست، ما باهات تماس میگیریم.</p>
-                    <input type='text' placeholder='نام و نام خانوادگی' className='input-question-form' />
-                    <input type='number' placeholder='شماره تماس' className='input-question-form' />
-                    <input type='text' placeholder='چه زمانی باهاتون تماس بگیریم؟' className='input-question-form' />
-                    <button className='btn-question-form'>ارسال</button>
-                </div>
+                    <div className='container-question-form'>
+                        <h2 className='title-question-form'>مشاوره رایگان</h2>
+                        <p className='desc-question-form'>اگه جواب سوالتو پیدا نکردی یا راهنمایی نیاز داشتی شمارتو برامون بفرست، ما باهات تماس میگیریم.</p>
+                        <input type='text' placeholder='نام و نام خانوادگی' className='input-question-form' />
+                        <input type='number' placeholder='شماره تماس' className='input-question-form' />
+                        <input type='text' placeholder='چه زمانی باهاتون تماس بگیریم؟' className='input-question-form' />
+                        <button className='btn-question-form'>ارسال</button>
+                    </div>
 
-            </div>
+                </div>
+            </div >
         </div >
     )
 }
