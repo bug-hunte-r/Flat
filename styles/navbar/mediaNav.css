@@ -29,7 +29,7 @@
     }
 
     .right-sec-navbar{
-        background-color: #EF273DF6;
+        background-color: rgba(0, 0, 0, 0.952);
         flex-direction: column;
         height: 100vh;
         justify-content: start;
@@ -59,8 +59,6 @@
     .logo {
         width: 65px;
         height: 40px;
-        background-color: white;
-        border-radius: 5px;
     }
 
     .left-sec-navbar {
